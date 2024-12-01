@@ -4,7 +4,7 @@ const { Sequelize } = require('sequelize');
 if (fs.existsSync('config.env')) {
   dotenv.config({
     path: './config.env'
-  });
+  }); 
 }
 
 const LOGS = process.env.LOGS || "false";
