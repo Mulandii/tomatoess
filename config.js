@@ -6,7 +6,7 @@ if (fs.existsSync('config.env')) {
     path: './config.env'
   }); 
 }
-
+ 
 const LOGS = process.env.LOGS || "false";
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
